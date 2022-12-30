@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 1280px;
+  height: 800px;
+  flex-direction: column;
+}
+.quote {
+  width: 650px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  align-self: center;
+}
+
+.quote-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.author {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  word-spacing: 250px;
+  margin: 20px;
+}
