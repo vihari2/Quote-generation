@@ -1,9 +1,10 @@
-const quoteContainer = document.getElementById("quote-container");
+const quoteContainer = document.getElementById("conta");
 const quoteTitulo = document.getElementById("quote-titulo");
 const quoteText = document.getElementById("quote-text");
 const authorText = document.getElementById("author");
 const shareBtn = document.getElementById("share");
-const newQuote = document.getElementById("loader");
+const newQuote = document.getElementById("newquote");
+const loader = document.getElementById("loader");
 
 function loading() {
   loader.hidden = false;
